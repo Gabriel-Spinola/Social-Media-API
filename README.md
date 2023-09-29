@@ -49,15 +49,15 @@ npm run dev
 The API will be accessible at http://localhost:3000/app/api/.
 
 ## API Endpoints
-**GET** /api/posts: Retrieve all posts.
+**GET** `/api/posts:` Retrieve all posts.
 <br>
-**GET** /api/posts/:id: Retrieve a specific post by ID.
+**GET** `/api/posts/:id:` Retrieve a specific post by ID.
 <br>
-**POST** /api/posts: Create a new post.
+**POST** `/api/posts:` Create a new post.
 <br>
-**PUT** /api/posts/:id: Update a post by ID.
+**PUT** `/api/posts/:id:` Update a post by ID.
 <br>
-**DELETE** /api/posts/:id: Delete a post by ID.
+**DELETE** `/api/posts/:id:` Delete a post by ID.
 
 
 (Similar endpoints for Comments, Projects, Users, and Images)
