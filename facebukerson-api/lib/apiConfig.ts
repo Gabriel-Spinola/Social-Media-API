@@ -28,7 +28,4 @@ export enum ModelsApiCode {
 
 export const SUPABASE_STORAGE_URL = `https://${process.env.SUPABASE_PROJECT_ID}.supabase.co/storage/v1/upload/resumable`
 
-export const API_URL =
-  process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3000/'
-    : 'https://projectg2.vercel.app/'
+export const API_URL = 'http://localhost:3000/'

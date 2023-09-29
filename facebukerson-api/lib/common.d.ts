@@ -45,3 +45,5 @@ export type FullPost = {
     location: string | null
   } | null
 } & Post
+
+export type UserSelectedData = { [key in keyof Partial<User>]: boolean }
