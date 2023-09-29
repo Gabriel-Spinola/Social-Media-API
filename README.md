@@ -33,22 +33,21 @@ Please note that Facebukerson is currently a work in progress. Feel free to cont
    ```
    
 2. **Install Dependencies:**
-```sh
-npm install
-```
-Configure Environment Variables:
-Create a .env file based on the provided .env.example and fill in the required credentials and configuration details.
+   ```sh
+   npm install
+   ```
+3. **Configure Environment Variables:**
+   Create a .env file based on the provided .env.example and fill in the required credentials and configuration details **(In Progress)**.
 
-Run the Application:
-
-```sh
-npm run dev
-```
+4. **Run the Application:**
+   ```sh
+   npm run dev
+   ```
 
 ## Access API Endpoints:
 The API will be accessible at http://localhost:3000/app/api/.
 
-## API Endpoints
+## API Endpoints _(In Progress)_
 **GET** `/api/posts:` Retrieve all posts.
 <br>
 **GET** `/api/posts/:id:` Retrieve a specific post by ID.
