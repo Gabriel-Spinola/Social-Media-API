@@ -1,7 +1,7 @@
 /**
  * @author Gabriel Spinola Mendes da Silva | gabrielspinola77@gmail.com
  *
- * @license i.e. GPL-3.0
+ * @license GPL-3.0
  */
 
 import { createClient } from '@supabase/supabase-js'
